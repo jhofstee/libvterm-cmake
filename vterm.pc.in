@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: vterm
+Description: Abstract VT220/Xterm/ECMA-48 emulation library
+Version: @VTERM_VERSION@
+Libs: -L${libdir} -lvterm
+Cflags: -I${includedir}
