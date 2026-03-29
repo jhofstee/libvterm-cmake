@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+
 add_library(vterm SHARED
 	ext/src/encoding.c
 	ext/src/keyboard.c
